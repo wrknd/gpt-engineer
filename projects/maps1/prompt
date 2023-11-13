@@ -1,0 +1,1 @@
+Create a NextJS14 Platform where user can login and submit simple URLS and give them a name. Each submission is then visible on the homepage. User can only login and submit urls and logout and save submitted urls into their own profile. Everything should be working with the latest nextjs14 features. for the database please use a postgress database. 

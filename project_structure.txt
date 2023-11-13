@@ -1,0 +1,161 @@
+.
+├── Acknowledgements.md
+├── DISCLAIMER.md
+├── LICENSE
+├── MANIFEST.in
+├── Makefile
+├── README.md
+├── ROADMAP.md
+├── TERMS_OF_USE.md
+├── WINDOWS_README.md
+├── benchmark
+│   ├── RESULTS.md
+│   ├── currency_converter
+│   │   └── prompt
+│   ├── file_explorer
+│   │   └── prompt
+│   ├── file_organizer
+│   │   └── prompt
+│   ├── image_resizer
+│   │   └── prompt
+│   ├── markdown_editor
+│   │   └── prompt
+│   ├── password_generator
+│   │   └── prompt
+│   ├── pomodoro_timer
+│   │   └── prompt
+│   ├── timer_app
+│   │   └── prompt
+│   ├── todo_list
+│   │   └── prompt
+│   └── url_shortener
+│       └── prompt
+├── docker
+│   ├── Dockerfile
+│   ├── README.md
+│   └── entrypoint.sh
+├── docker-compose.yml
+├── docs
+│   ├── DOCS_BUILDING.md
+│   ├── Makefile
+│   ├── api_reference.rst
+│   ├── code_conduct_link.rst
+│   ├── conf.py
+│   ├── contributing_link.rst
+│   ├── create_api_rst.py
+│   ├── disclaimer_link.rst
+│   ├── index.rst
+│   ├── installation.rst
+│   ├── intro
+│   │   ├── # Table of Contents.md
+│   │   ├── ai_class.md
+│   │   ├── chat_parsing.md
+│   │   ├── db_class.md
+│   │   ├── gate.md
+│   │   ├── harmony_db_ai_steps.md
+│   │   ├── main_script.md
+│   │   ├── preprompts.md
+│   │   ├── quick_overview.md
+│   │   ├── repository_stats.md
+│   │   ├── scripts.md
+│   │   └── steps_module.md
+│   ├── make.bat
+│   ├── open_models.md
+│   ├── readme_link.rst
+│   ├── requirements.txt
+│   ├── results_link.rst
+│   ├── roadmap_link.rst
+│   ├── tesrms_link.rst
+│   ├── tracing_debugging.md
+│   ├── usage.rst
+│   └── windows_readme_link.rst
+├── evals
+│   ├── EVAL_NEW_CODE_RESULTS.md
+│   ├── IMPROVE_CODE_RESULTS.md
+│   ├── README.md
+│   ├── __init__.py
+│   ├── eval_tools.py
+│   ├── evals_existing_code.py
+│   ├── evals_new_code.py
+│   ├── existing_code_eval.yaml
+│   ├── known_code_blobs
+│   │   ├── snake_game_files.txt
+│   │   └── web_todo_files.txt
+│   └── new_code_eval.yaml
+├── gpt_engineer
+│   ├── __init__.py
+│   ├── cli
+│   │   ├── __init__.py
+│   │   ├── collect.py
+│   │   ├── file_selector.py
+│   │   ├── learning.py
+│   │   └── main.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── ai.py
+│   │   ├── chat_to_files.py
+│   │   ├── domain.py
+│   │   ├── steps.py
+│   │   └── token_usage.py
+│   ├── data
+│   │   ├── __init__.py
+│   │   ├── code_vector_repository.py
+│   │   ├── document_chunker.py
+│   │   ├── file_repository.py
+│   │   └── supported_languages.py
+│   └── preprompts
+│       ├── clarify
+│       ├── file_format
+│       ├── file_format_fix
+│       ├── generate
+│       ├── improve
+│       ├── philosophy
+│       └── roadmap
+├── gpt_engineer.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   ├── entry_points.txt
+│   ├── requires.txt
+│   └── top_level.txt
+├── project_structure.txt
+├── projects
+│   ├── example
+│   │   └── prompt
+│   ├── example-improve
+│   │   ├── README.md
+│   │   ├── controller.py
+│   │   ├── main.py
+│   │   ├── model.py
+│   │   ├── prompt
+│   │   ├── requirements.txt
+│   │   ├── run.sh
+│   │   └── view.py
+│   ├── maps
+│   │   └── prompt
+│   └── maps1
+│       └── prompt
+├── pyproject.toml
+├── scripts
+│   ├── benchmark.py
+│   ├── clean_benchmarks.py
+│   ├── print_chat.py
+│   └── test_api.py
+├── sweep.yaml
+└── tests
+    ├── __init__.py
+    ├── data
+    │   ├── example_snake_files.py
+    │   ├── test_code_vector_repository.py
+    │   └── test_file_repository.py
+    ├── steps
+    │   ├── __init__.py
+    │   └── test_archive.py
+    ├── test_ai.py
+    ├── test_chat_to_files.py
+    ├── test_collect.py
+    ├── test_collection_consent.py
+    ├── test_install.py
+    └── test_token_usage.py
+
+32 directories, 127 files
